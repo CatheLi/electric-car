@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512 Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Biblioteca de iconos Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.4.47/css/materialdesignicons.css">
+    <title>Electric Cars</title>
+</head>
+
+<body>
+    <!--Menú-->
+    <aside> <!--logo, marca y barra - contenedor de la izquierda-->
+        <div> <!--logo y marca-->
+            <span class="mdi mdi-car-electric"></span> <!--ícono de la página debe ser electric cars-->
+            <h1>Electric Cars</h1> <!--título-->
+        </div>
+        <div class="bars"> <!--barra-->
+            <span class="mdi mdi-menu"></span> <!--ícono bars-->
+        </div>
+        <nav> <!--navegador que aparece a la izquierda cuando sale del modo teléfono-->
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!--Filtro-->
+    <section class="search-container">
+        <label for="search">Ordenar Por:</label>
+        <select name="search" id="carlist">
+            <option value="Precio">Precio</option>
+            <option value="Categoria">Categoría</option>
+        </select>
+    </section>
+    <!--Galeria-->
+    <main>
+        <div class="cards"> <!--todas las cards-->
+            <div class="card"><!--card 1-->
+                <img src="assets/imgs/electric-car.jpeg" alt="Electric car">
+                <div class="datos">
+                    <p>Model: City Car</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            <div class="card"><!--card 2-->
+                <img src="assets/imgs/electric-car.jpeg" alt="Electric car">
+                <div class="datos">
+                    <p>Model: City Car</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            <div class="card"><!--card 3-->
+                <img src="assets/imgs/electric-car.jpeg" alt="Electric car">
+                <div class="datos">
+                    <p>Model: City Car</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            <div class="card"><!--card 4-->
+                <img src="assets/imgs/electric-car.jpeg" alt="Electric car">
+                <div class="datos">
+                    <p>Model: City Car</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            <div class="card"><!--card 5-->
+                <img src="assets/imgs/electric-car.jpeg" alt="Electric car">
+                <div class="datos">
+                    <p>Model: City Car</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            <div class="card"><!--card 6-->
+                <img src="assets/imgs/electric-car.jpeg" alt="Electric car">
+                <div class="datos">
+                    <p>Model: City Car</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            <div class="card"><!--card 7-->
+                <img src="assets/imgs/electric-car.jpeg" alt="Electric car">
+                <div class="datos">
+                    <p>Model: City Car</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            <div class="card"><!--card 8-->
+                <img src="assets/imgs/electric-car.jpeg" alt="Electric car">
+                <div class="datos">
+                    <p>Model: City Car</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+        </div> <!--cierre de todas las cards-->
+        <!--Pagination-->
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a class="active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">&raquo;</a>
+        </div>
+    </main> <!--cierre de galería-->
+
+    <!--Footer-->
+    <footer>
+        <div class="icons">
+            <span class="mdi mdi-facebook"></span>
+            <span class="mdi mdi-instagram"></span>
+        </div>
+        <div class="footer-text">Todos los derechos reservados</div>
+    </footer>
+</body>
+
+</html>
